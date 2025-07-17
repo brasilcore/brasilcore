@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BRASILCORE</title>
+    <title>Brasilcore</title>
     <style>
         body {
+            background: #f7f1e1;
+            color: #1e3a2a;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f5ece1;
+            font-family: 'Segoe UI', Arial, sans-serif;
         }
-        img {
-            max-width: 80%;
-            height: auto;
+        .logo {
+            max-width: 400px;
+            width: 80vw;
+            margin-bottom: 32px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            border-radius: 10px;
+        }
+        .contact {
+            font-size: 1.4rem;
+            color: #00744e;
+            font-weight: 500;
+            letter-spacing: 0.5px;
         }
     </style>
 </head>
 <body>
-    <img src="brasilcore_logo_horizontal.png" alt="Logomarca BRASILCORE">
+    <img class="logo" src="imagem1.png" alt="Logomarca Brasilcore">
+    <div class="contact">contact@brasilcore.com</div>
 </body>
 </html>
